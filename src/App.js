@@ -3,11 +3,16 @@ import { BrowserRouter as Router} from 'react-router-dom';
 
 import Routes from './routes'
 
+import GlobalStyled from './styles'
+
 function App() {
   return (
-    <Router>
-      <Routes />
-    </Router>
+    <>
+      <Router>
+        <Routes />
+      </Router>
+      <GlobalStyled />
+    </>
   );
 }
 
