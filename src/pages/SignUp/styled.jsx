@@ -27,7 +27,7 @@ export const AnimationContainer = styled.div`
     background: #ececec;
     
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
 
