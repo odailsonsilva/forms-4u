@@ -9,7 +9,7 @@ export default createGlobalStyle`
     }
 
     body{
-        background-color: #00183C;
+        background-color: #ececec;
         -webkit-font-smoothing: antialiased;
     }
 
