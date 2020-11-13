@@ -87,9 +87,10 @@ export const AnimationContainer = styled.div`
             position: absolute;
             top: -13px;
             left: 80px;
-            background: #FBC531;
+            background: #6f42c1;
             padding: 2px 16px;
             border-radius: 5px;
+            color: #fff;
         }
     }
  }
@@ -112,7 +113,8 @@ export const Input = styled.input`
 export const Button = styled.button`
     margin-top: 15px;
     width: 46%;
-    background: #FBC531;
+    background: #6f42c1;
+    color: #fff;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     border: none;
@@ -124,7 +126,7 @@ export const Button = styled.button`
     font-weight: 900;
 
     &:hover{
-        background: ${shade( 0.15, "#FBC531")}
+        background: ${shade( 0.25, "#6f42c1")}
     }
 
     &:disabled{
@@ -140,7 +142,8 @@ export const TextContainer = styled.span`
     position: absolute;
     top: -13px;
     left: 70px;
-    background: #FBC531;
+    background: #6f42c1;
+    color: #fff;
     padding: 2px 16px;
     border-radius: 5px;
 `;

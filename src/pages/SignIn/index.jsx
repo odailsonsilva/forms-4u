@@ -52,6 +52,12 @@ class SignUpForm extends React.Component {
         if (this.state.email !== "" && this.state.pass !== "")
         {
           //request para o servidor
+          this.setState({
+            error: {
+              email: this.state.email === "" ? "Seu email nao pode estar vazio" : "",
+              passOne: this.state.passOne === "" ? "Sua senha nao pode estar vazia" : ""
+            }
+          })
         } else {
           this.setState({
             error: {
